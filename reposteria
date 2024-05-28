@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venta de Pasteles de Chocolate</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f5f5f5;
+        }
+        header {
+            background-color: #4b2e83;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px 0;
+        }
+        .product {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .product img {
+            max-width: 100%;
+            border-radius: 8px;
+        }
+        .product h2 {
+            margin-top: 0;
+        }
+        .contact-form {
+            background-color: white;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .contact-form button {
+            background-color: #4b2e83;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Deliciosos Pasteles de Chocolate</h1>
+    </header>
+    <div class="container">
+        <div class="product">
+            <img src="https://example.com/pastel1.jpg" alt="Pastel de Chocolate Clásico">
+            <h2>Pastel de Chocolate Clásico</h2>
+            <p>Un pastel de chocolate clásico, hecho con los mejores ingredientes. Perfecto para cualquier ocasión.</p>
+            <p><strong>Precio:</strong> $15.00</p>
+        </div>
+        <div class="product">
+            <img src="https://example.com/pastel2.jpg" alt="Pastel de Chocolate y Nuez">
+            <h2>Pastel de Chocolate y Nuez</h2>
+            <p>Disfruta de la combinación perfecta de chocolate y nuez en este delicioso pastel.</p>
+            <p><strong>Precio:</strong> $18.00</p>
+        </div>
+        <div class="product">
+            <img src="https://example.com/pastel3.jpg" alt="Pastel de Chocolate Blanco">
+            <h2>Pastel de Chocolate Blanco</h2>
+            <p>Una variante exquisita con chocolate blanco, ideal para los amantes de los sabores suaves.</p>
+            <p><strong>Precio:</strong> $20.00</p>
+        </div>
+    </div>
+    <div class="container">
+        <div class="contact-form">
+            <h2>Contáctanos</h2>
+            <form action="submit_form.php" method="post">
+                <input type="text" name="name" placeholder="Tu Nombre" required>
+                <input type="email" name="email" placeholder="Tu Email" required>
+                <textarea name="message" rows="5" placeholder="Tu Mensaje" required></textarea>
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
